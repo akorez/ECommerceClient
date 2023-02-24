@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductModule } from './products/products.module';
-import { OrderModule } from './orders/orders.module';
-import { CustomerModule } from './customers/customers.module';
+import { ProductsModule } from './products/products.module';
+import { CustomersModule } from './customers/customers.module';
+import { OrdersModule } from './orders/orders.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 
 
@@ -11,9 +11,9 @@ import { DashboardModule } from './dashboard/dashboard.module';
   declarations: [],
   imports: [
     CommonModule,
-    ProductModule,
-    OrderModule,
-    CustomerModule,
+    ProductsModule,
+    CustomersModule,
+    OrdersModule,
     DashboardModule
   ]
 })
